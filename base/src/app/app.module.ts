@@ -15,6 +15,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NewsComponent } from './components/news/news.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { TransitionComponent } from './transition/transition.component';
+import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HeaderComponent } from './components/header/header.component';
     HomeComponent,
     NewsComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    TransitionComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule,

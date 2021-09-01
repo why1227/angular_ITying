@@ -7,8 +7,10 @@
     <br>
     <button (click)="get_child_run()">执行子组件的方法</button>
     <br>
+    <button (click)="run_parent($event)">执行自己的run方法</button>
+
     <br>
     <br>
 </div>
 
-<app-footer #footer></app-footer>
+<app-footer #footer (outer)="run_parent($event)"></app-footer>

@@ -19,5 +19,9 @@ export class NewsComponent implements OnInit {
   get_child_run() {
     this.footer.run();
   }
+  run_parent(e:any){
+    alert("我是父组件的run方法～");
+    console.log(e);
+  }
 
 }

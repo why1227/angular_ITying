@@ -1,8 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-ul,ol{
-    list-style-type: none;
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
 }

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'base';
+  flag: boolean = true;
+  change_title() {
+    this.title = "改变后的title";
+  }
+  change_flag(){
+    this.flag = !this.flag;
+  }
 }

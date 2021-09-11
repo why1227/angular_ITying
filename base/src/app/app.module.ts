@@ -17,6 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TransitionComponent } from './transition/transition.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
+import { GetPostComponent } from './get-post/get-post.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
     FooterComponent,
     HeaderComponent,
     TransitionComponent,
-    LifecycleComponent
+    LifecycleComponent,
+    RxjsComponent,
+    GetPostComponent
   ],
   imports: [
     BrowserModule,

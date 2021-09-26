@@ -19,6 +19,15 @@ import { TransitionComponent } from './transition/transition.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { GetPostComponent } from './get-post/get-post.component';
+import { HttpserviceService } from './services/httpservice.service';
+
+
+
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import { ProductComponent } from './routing/product/product.component';
+import { IndexComponent } from './routing/index/index.component';
+import { SaleComponent } from './routing/sale/sale.component';
+import { ProductDetailComponent } from './routing/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -34,14 +43,20 @@ import { GetPostComponent } from './get-post/get-post.component';
     TransitionComponent,
     LifecycleComponent,
     RxjsComponent,
-    GetPostComponent
+    GetPostComponent,
+    ProductComponent,
+    IndexComponent,
+    SaleComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    HttpClientJsonpModule
   ],
-  providers: [StorageService],
+  providers: [StorageService,HttpserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

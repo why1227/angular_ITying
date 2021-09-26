@@ -1,1 +1,24 @@
 <p>get-post works!</p>
+<br>
+<button (click)="get_data()">get请求数据</button>
+<br>
+<br>
+<ul>
+  <li *ngFor="let item of list">{{item.title}}</li>
+</ul>
+
+
+<br>
+<br>
+<hr>
+<button (click)="do_login()">post提交数据</button>
+
+<br>
+<br>
+<hr>
+<button (click)="get_jsonp_data()">通过jsonp获取服务器数据（跨域的一种解决办法）</button>
+
+<br>
+<br>
+<hr>
+<button (click)="get_axios_data()">通过第三方模块axios获取服务器的数据</button>

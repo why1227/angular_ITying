@@ -32,7 +32,7 @@ export class RxjsComponent implements OnInit {
       console.log(data);
     })
 
-    // 4-Promise获取异步数据
+    // 4-rxjs获取异步数据
     // let rxjs_data = this.request.get_rxjs_data();
     // rxjs_data.subscribe((data)=>{
     //   console.log(data);

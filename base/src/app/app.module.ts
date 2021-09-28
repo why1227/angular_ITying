@@ -28,6 +28,16 @@ import { ProductComponent } from './routing/product/product.component';
 import { IndexComponent } from './routing/index/index.component';
 import { SaleComponent } from './routing/sale/sale.component';
 import { ProductDetailComponent } from './routing/product-detail/product-detail.component';
+import { SaleDetailComponent } from './routing/sale-detail/sale-detail.component';
+import { HotComponent } from './routing/hot/hot.component';
+import { HotDetailComponent } from './routing/hot-detail/hot-detail.component';
+import { Home2Component } from './home2/home2.component';
+import { Product2Component } from './product2/product2.component';
+import { WelcomeComponent } from './home2/welcome/welcome.component';
+import { SettingComponent } from './home2/setting/setting.component';
+import { PcateComponent } from './product2/pcate/pcate.component';
+import { PlistComponent } from './product2/plist/plist.component';
+import { News2Component } from './news2/news2.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +57,18 @@ import { ProductDetailComponent } from './routing/product-detail/product-detail.
     ProductComponent,
     IndexComponent,
     SaleComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    SaleDetailComponent,
+    HotComponent,
+    HotDetailComponent,
+    Home2Component,
+    Product2Component,
+    WelcomeComponent,
+    SettingComponent,
+    PcateComponent,
+    PlistComponent,
+    News2Component,
+    
   ],
   imports: [
     BrowserModule,

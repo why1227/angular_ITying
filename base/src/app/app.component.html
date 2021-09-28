@@ -11,24 +11,35 @@
 <!-- Css動畫 -->
 <!-- <app-transition></app-transition> -->
 
+<!-- 父子组件传值 -->
 <!-- <app-lifecycle [title]="title" *ngIf="flag"></app-lifecycle>
 
 <hr>
+
 <label for="">这是父组件：</label>
 <button (click)="change_title()">改变父组件的title</button>
 <br>
 <br>
 <button (click)="change_flag()">挂载以及卸载组件</button> -->
 
-
+<!-- rxjs学习 -->
 <!-- <app-rxjs></app-rxjs> -->
 
+<!-- get,post传值 -->
 <!-- <app-get-post></app-get-post> -->
 
 <header class="header">
-  <a [routerLink]="['/index']" routerLinkActive="active">首页</a>
-  <a routerLink='/product' routerLinkActive="active">商品</a>
-  <a routerLink='/sale' routerLinkActive="active">售卖</a>
+
+  <!-- 路由跳转 -->
+  <!-- <a [routerLink]="['/index']" routerLinkActive="active">首页</a>
+  <a routerLink="/product" routerLinkActive="active">商品</a>
+  <a routerLink="/sale" routerLinkActive="active">售卖</a>
+  <a routerLink="/hot" routerLinkActive="active">热门</a> -->
+
+  <!-- 父子路由 -->
+  <a [routerLink]="['/home2']" routerLinkActive="active">首页</a>
+  <a [routerLink]="['/product2']" routerLinkActive="active">商品</a>
+  <a [routerLink]="['/news2']" routerLinkActive="active">新闻</a>
 
 
 </header>

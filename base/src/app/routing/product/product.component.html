@@ -1,1 +1,10 @@
-<p>product works!</p>
+<a [routerLink]="['/product_detail']">跳转到商品详情</a>
+<br>
+<br>
+<br>
+<h2>get传值</h2>
+<ul>
+  <li *ngFor="let item of list;let key = index">
+    <a [routerLink]="['/product_detail']" [queryParams]="{aid:key}">{{key}}--{{item}}</a>
+  </li>
+</ul>
